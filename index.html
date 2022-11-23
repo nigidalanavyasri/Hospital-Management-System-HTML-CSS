@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css'>
+    <script src="script.js"></script>
+</head>
+<body onload="getPageContent('home')">
+    <header>
+        <div id="upheader">Hospital Management System</div>
+        <div id="downheader">
+            <div id="bookapp" class="options" ><img src="bookapp.jpg" alt="" height="55vh" width="45vh" onclick="getPageContent('book')">Book Appointment</div>
+            <div id="consultonline" class="options"><img src="consult.jpg" alt="" height="55vh" width="41vh" onclick="getPageContent('consult')">Consult Online</div>
+            <div id="buymedicine" class="options"><img src="buymedicine.jpg" alt="" height="55vh" width="45vh" onclick="getPageContent('medicine')">Buy Medicine</div>
+            <div id="booktest" class="options"><img src="booklab.jpg" alt="" height="55vh" width="45vh" onclick="getPageContent('test')">Book LabTest</div>
+        </div>
+    </header>
+    <main id="main" style="display: flex; align-items: center;justify-content: center;" >
+        <div id="content">
+
+        </div>
+        
+    </main>
+    <footer>
+        <div id="rights">&#169 2022 Hospital Management System <br> All Rights Reserved</div>
+        <div id="social"><span class="bi bi-whatsapp" style="padding-left:10px"></span><i class="bi bi-facebook" style="padding-left:10px"></i><i class="bi bi-instagram" style="padding-left:10px"></i><i class="bi bi-linkedin" style="padding-left:10px"></i></div>
+    </footer>
+    
+</body>
+</html
